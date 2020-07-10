@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>nfc</groupId>
+	<artifactId>nfc-ntag-pwd</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>nfc-ntag-pwd</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.nfctools</groupId>
+			<artifactId>nfctools-ndef</artifactId>
+			<version>1.0.M8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.nfctools</groupId>
+			<artifactId>nfctools-core</artifactId>
+			<version>1.0.M8</version>
+		</dependency>
+	</dependencies>
+</project>
